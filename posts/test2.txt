@@ -1,0 +1,7 @@
+﻿name=Test
+author=Janský Důnska
+id=1
+blurb=This is a test post
+date=12 May 2014
+---
+<p>This is sample text. It has no meaning.</p><p>This is sample text. It has no meaning.</p><p>This is sample text. It has no meaning.</p><p>This is sample text. It has no meaning.</p><p>This is sample text. It has no meaning.</p><p>This is sample text. It has no meaning.</p><p>This is sample text. It has no meaning.</p>
