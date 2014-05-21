@@ -22,21 +22,22 @@ def PrintHeaders(httpcode):
 	print "Content-type: text/html; charset=utf-8"
 	print
 
-def WriteDocument(content,title=""):
+# Uncomment below to enable the simple WriteDocument function
+#def WriteDocument(content,title=""):
 
-	print "<!DOCTYPE html>"
-	print "<html>"
-	print "<head>"
-	if title == "":
-		print "<title>Blog</title>"
-	else:
-		print "<title>" + title + " | Blog</title>"
-	print "<meta charset='utf-8'/>"
-	print "<meta name='author' content='PyBloggingSystem v0.1'/>"
-	print "<body>"
-	print content
-	print "</body>"
-	print "</html>"
+#	print "<!DOCTYPE html>"
+#	print "<html>"
+#	print "<head>"
+#	if title == "":
+#		print "<title>Blog</title>"
+#	else:
+#		print "<title>" + title + " | Blog</title>"
+#	print "<meta charset='utf-8'/>"
+#	print "<meta name='author' content='PyBloggingSystem v0.1'/>"
+#	print "<body>"
+#	print content
+#	print "</body>"
+#	print "</html>"
 
 def DoDocumentTemplating(data, templateFile):
 
